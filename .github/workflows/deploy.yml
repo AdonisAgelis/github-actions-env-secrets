@@ -12,6 +12,7 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: cluster
       MONGODB_USERNAME: username
       MONGODB_PASSWORD: password
+      PORT: 8080
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
